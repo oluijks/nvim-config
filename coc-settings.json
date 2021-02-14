@@ -1,5 +1,12 @@
 {
 				"prettier.tslintIntegration": true,
 				"prettier.eslintIntegration": false,
-				"coc.preferences.formatOnSaveFiletypes": ["typescript", "typescriptreact"]
+				"coc.preferences.formatOnSaveFiletypes": ["typescript", "typescriptreact"],
+				"explorer.width": 30,
+				"explorer.icon.enableNerdfont": false,
+				"explorer.previewAction.onHover": false,
+				"explorer.keyMappings": {
+								"<cr>": ["expandable?", "expand", "open"],
+								"v": "open.vsplit"
+				}
 }
